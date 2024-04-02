@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pizzeria</title>
+  </head>
+
+  <body>
+    <section class="welcome_pizza">
+      <img class="pizza_logo_img" src="img/pizza.png">
+        <h1 class="pizza_title">"Palazzo della Pizza"</h1>
+        <h2>Las pizzas más deliciosas de Argentina</h2>
+        <h4>¿Qué pizza desea comer hoy?</h4>
+      <form class="pizza_content">
+        <input type="number" id="pizza_number" placeholder="Ingrese un número">
+        <input type="submit" id="pizza_button" placeholder="Aceptar">
+      </form>
+      <div class="all_pizzas">
+        <ul class="pizzas_list">
+          <li class="pizza_muza">
+            <h3>1. Pizza Muzarella</h3>
+          </li>
+          <li class="pizza_cebo">
+            <h3>2. Pizza con Cebolla</h3>
+          </li>
+          <li class="pizza_cuatro">
+            <h3>3. Pizza 4 quesos</h3>
+          </li>
+          <li class="pizza_esp">
+            <h3>4. Pizza Especial</h3>
+          </li>
+          <li class="pizza_ana">
+            <h3>5. Pizza con Ananá</h3>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="selected-pizza"></section>
+    <script src="index.js"></script>
+  </body>
+</html>
